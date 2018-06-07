@@ -7,11 +7,18 @@
 	</head>
 	<body>
 		<ul id="switcher">
-			<li class="smaller" onclick="document.body.className='smaller'">A-</li>
-			<li class="normal" onclick="document.body.className=''">A</li>
-			<li class="bigger" onclick="document.body.className='bigger'">A+</li>
+			<li class="smaller" onclick="changeClass('smaller');">A-</li>
+			<li class="normal" onclick="changeClass('');">A</li>
+			<li class="bigger" onclick="changeClass('bigger');">A+</li>
 		</ul>
-
+		
+		<ul id="switcher">
+			<li class="red" onclick="changeClass('red');">A-</li>
+			<li class="blue" onclick="changeClass('blue');">A</li>
+			<li class="green" onclick="changeClass('green');">A+</li>
+		</ul>
+		
+		
 		<h1>Page Styler</h1>
 
 		<p>Click the buttons above to change the page styles!</p>

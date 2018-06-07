@@ -1,9 +1,17 @@
-// console.log("Hello");
-// console.log('good evening');
-// console.log(20+2);
-// console.log('1'+'24');
-// console.log(`javascript`);
-const src="script.js=1;
-const myString='Mayuri';
-let vartwo=2;
-var var3=3;
+/*instead of using 3 functions ,can add 1 function which takes 
+different arguments*/
+// function updateClassToSmaller(){
+//     document.body.className='smaller';
+// }
+
+// function updateClassToBigger (){
+//     document.body.className='bigger';   
+// }
+// function updateBack(){
+//     document.body.className='';
+// }
+
+function changeClass(newClass){
+    document.body.className=newClass;
+}
+
